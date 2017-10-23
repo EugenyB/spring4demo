@@ -11,6 +11,11 @@
     <title>Title</title>
 </head>
 <body>
-
+    <h1>Hello, World!</h1>
+    <form action="hello" method="get">
+        <input type="text" name="username" title="User name" />
+        <input type="number" name="userage" title="User age" />
+        <input type="submit" value="Ok" />
+    </form>
 </body>
 </html>
